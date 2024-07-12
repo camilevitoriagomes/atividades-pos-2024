@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="c1" >
+    
+        <nome>X-Burger</nome>
+        <descrição>esse você come e quer outro</descrição>
+        <ingredientes>Pão de hambúrguer, hambúrguer e queijo</ingredientes>
+        <preço>11.5</preço>
+        <calorias>330 cal</calorias>
+        <tempo>30 min</tempo>
+
+    </prato>
+
+    <prato id="c2" >
+    
+        <nome>x-salada</nome>
+        <descrição>so pros fitnes</descrição>
+        <ingredientes>Pão de hambúrguer, hambúrguer, queijo, milho, alface, maionese e tomate.</ingredientes>
+        <preço>12.7</preço>
+        <calorias>50 cal</calorias>
+        <tempo>20 min</tempo>
+
+    </prato>
+
+    <prato id="c3" >
+    
+        <nome>X-bacon</nome>
+        <descrição>esse tem bacon</descrição>
+        <ingredientes>Pão de hambúrguer, hambúrguer, queijo, bacon, alface e maionese.</ingredientes>
+        <preço>13.0</preço>
+        <calorias>500 cal</calorias>
+        <tempo>35 min</tempo>
+
+    </prato>
+
+    <prato id="c4" >
+    
+        <nome>X-egg</nome>
+        <descrição> esse é a mesma coisa do x-bacon, so trocou o bacon por ovo</descrição>
+        <ingredientes>Pão de hambúrguer, hambúrguer, queijo, ovo, alface, maionese, tomate.</ingredientes>
+        <preço>12.7</preço>
+        <calorias>450 cal</calorias>
+        <tempo>30 min</tempo>
+
+    </prato>
+
+    <prato id="c5" >
+    
+        <nome>X-tudo</nome>
+        <descrição>esse você come e fica de buxo cheio</descrição>
+        <ingredientes>Pão de hambúrguer, hambúrguer, frango empanado, bacon, salsicha, queijo coalho, queijo, catupiry, cheddar milho, alface, maionese e tomate.</ingredientes>
+        <preço>15.7</preço>
+        <calorias>740 cal</calorias>
+        <tempo>40 min</tempo>
+
+    </prato>
+    
+</cardapio>
