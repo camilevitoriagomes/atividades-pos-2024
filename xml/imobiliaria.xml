@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT proprietario (nome, (email | telefone)+ )>
+<!ELEMENT endereco (rua, bairro, cidade, número?)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT número (#PCDATA)>
+
+]>
+
+
+<imobiliaria>
+    <imovel>
+        <descricao>alugar e vender</descricao>
+        <proprietario>
+            <nome>jose</nome>
+            <email>camile@gota</email>
+            <telefone>9999999</telefone>
+            <telefone>9999999</telefone>
+            
+        </proprietario>
+
+        <endereco>
+            <rua>maria de pontes</rua>
+            <bairro>centro</bairro>
+            <cidade>bom jesus</cidade>
+        </endereco>
+
+
+        <caracteristicas>
+            <tamanho>300m</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>6</numBanheiros>
+        </caracteristicas>
+
+        <valor>200000</valor>
+
+    </imovel>
+
+    <imovel>
+        <descricao>casa para vender</descricao>
+        <proprietario>
+            <nome>rita</nome>
+            <telefone>999449999</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>jose de pontes</rua>
+            <bairro>caixa dagoa</bairro>
+            <cidade>bom jesus</cidade>
+            <número>09</número>
+        </endereco>
+
+
+        <caracteristicas>
+            <tamanho>700m</tamanho>
+            <numQuartos>9</numQuartos>
+            <numBanheiros>20</numBanheiros>
+        </caracteristicas>
+
+        <valor>600000</valor>
+
+    </imovel>
+
+    <imovel>
+        <descricao>casa para vender</descricao>
+        <proprietario>
+            <nome>rita</nome>
+            <telefone>999449999</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>jose de pontes</rua>
+            <bairro>caixa dagoa</bairro>
+            <cidade>bom jesus</cidade>
+            <número>09</número>
+        </endereco>
+
+
+        <caracteristicas>
+            <tamanho>700m</tamanho>
+            <numQuartos>9</numQuartos>
+            <numBanheiros>20</numBanheiros>
+        </caracteristicas>
+
+        <valor>600000</valor>
+
+    </imovel>
+
+    <imovel>
+        <descricao>casa para vender</descricao>
+        <proprietario>
+            <nome>rita</nome>
+            <email>camile@</email>
+        </proprietario>
+
+        <endereco>
+            <rua>jose de pontes</rua>
+            <bairro>caixa dagoa</bairro>
+            <cidade>bom jesus</cidade>
+            <número>09</número>
+        </endereco>
+
+
+        <caracteristicas>
+            <tamanho>700m</tamanho>
+            <numQuartos>9</numQuartos>
+            <numBanheiros>20</numBanheiros>
+        </caracteristicas>
+
+        <valor>600000</valor>
+
+    </imovel>
+
+    <imovel>
+        <descricao>casa</descricao>
+        <proprietario>
+            <nome>luiza</nome>
+            <telefone>999449999</telefone>
+        </proprietario>
+
+        <endereco>
+            <rua>jose de pontes</rua>
+            <bairro>caixa dagoa</bairro>
+            <cidade>bom jesus</cidade>
+            <número>09</número>
+        </endereco>
+
+
+        <caracteristicas>
+            <tamanho>700m</tamanho>
+            <numQuartos>9</numQuartos>
+            <numBanheiros>20</numBanheiros>
+        </caracteristicas>
+
+        <valor>600000</valor>
+
+    </imovel>
+</imobiliaria>
