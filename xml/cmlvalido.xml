@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz [
+<!ELEMENT quiz (disciplina, professor, turma, data, questões)>
+    <!ATTLIST quiz versao CDATA #REQUIRED>
+    <!ELEMENT disciplina (#PCDATA)>
+    <!ELEMENT professor (nome, matrícula?)>
+        <!ELEMENT nome (#PCDATA)>
+        <!ELEMENT matrícula (#PCDATA)>
+    <!ELEMENT turma (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT questões (questão+)>
+        <!ELEMENT questão (enunciado, pontuação, alternativas)>
+            <!ELEMENT enunciado (#PCDATA)>
+            <!ELEMENT pontuação (#PCDATA)>
+            <!ELEMENT alternativas (alternativa+)>
+                <!ELEMENT alternativa (#PCDATA)>
+                    <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
+]>
+
+<quiz versao="3">
+    <disciplina>por</disciplina>
+    <professor>
+        <nome>louco</nome>
+        <matrícula>666666</matrícula>
+    </professor>
+    <turma>oi</turma>
+    <data>7 de julho</data>
+    <questões>
+        <questão>
+            <enunciado> oi</enunciado>
+            <pontuação> 33 </pontuação>
+            <alternativas>
+                <alternativa correta="sim" > roma </alternativa>
+                <alternativa correta="nao" > siberia </alternativa>
+                <alternativa correta="nao" > chile </alternativa>
+                <alternativa correta="nao" > equador </alternativa>
+                <alternativa correta="nao" > cecilias </alternativa>
+            </alternativas>
+            
+        </questão>
+
+        <questão>
+            <enunciado> qual o certo</enunciado>
+            <pontuação> 90 </pontuação>
+            <alternativas>
+                <alternativa correta="sim" > a </alternativa>
+                <alternativa correta="nao" > b </alternativa>
+            </alternativas>
+            
+        </questão>
+
+        <questão>
+            <enunciado> qual a rua</enunciado>
+            <pontuação> 20 </pontuação>
+            <alternativas>
+                <alternativa correta="sim" > buzios </alternativa>
+                <alternativa correta="sim" > ponta negra </alternativa>
+                <alternativa correta="nao" > china </alternativa>
+            </alternativas>
+            
+        </questão>
+
+        <questão>
+            <enunciado> qual o nome</enunciado>
+            <pontuação>55</pontuação>
+            <alternativas>
+                <alternativa correta="sim" > roma </alternativa>
+            </alternativas>
+            
+        </questão>
+
+        <questão>
+            <enunciado> oi</enunciado>
+            <pontuação> 33 </pontuação>
+            <alternativas>
+                <alternativa correta="sim" > roma </alternativa>
+            </alternativas>
+            
+        </questão>
+    </questões>
+</quiz>
