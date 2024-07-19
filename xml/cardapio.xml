@@ -14,7 +14,7 @@
         
         <preco moeda="USD">&dolar; 11.5</preco>
         <calorias>330 cal</calorias>
-        <tempo>30 min</tempo>
+        <tempoPreparo>30 min</tempoPreparo>
 
     </prato>
 
@@ -33,7 +33,7 @@
         </ingredientes>
         <preco moeda="BRL"> &reais;  12.7</preco>
         <calorias>50 cal</calorias>
-        <tempo>20 min</tempo>
+        <tempoPreparo>20 min</tempoPreparo>
 
     </prato>
 
@@ -52,7 +52,7 @@
         </ingredientes>
         <preco moeda="BRL"> &reais; 13.0</preco>
         <calorias>500 cal</calorias>
-        <tempo>35 min</tempo>
+        <tempoPreparo>35 min</tempoPreparo>
 
     </prato>
 
@@ -71,7 +71,7 @@
         </ingredientes>
         <preco moeda="BRL"> &reais; 12.7</preco>
         <calorias>450 cal</calorias>
-        <tempo>30 min</tempo>
+        <tempoPreparo>30 min</tempoPreparo>
 
     </prato>
 
@@ -95,7 +95,7 @@
         </ingredientes>
         <preco moeda="BRL"> &reais; 15.7</preco>
         <calorias>740 cal</calorias>
-        <tempo>40 min</tempo>
+        <tempoPreparo>40 min</tempoPreparo>
 
     </prato>
     

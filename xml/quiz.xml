@@ -18,7 +18,6 @@
                 <alternativa correta="nao" > siberia </alternativa>
                 <alternativa correta="nao" > chile </alternativa>
                 <alternativa correta="nao" > equador </alternativa>
-                <alternativa correta="nao" > cecilias </alternativa>
             </alternativas>
             
         </questão>
@@ -29,6 +28,8 @@
             <alternativas>
                 <alternativa correta="sim" > Trata-se de uma sequência de passos, conhecida como um conjunto de instruções para se chegar a um determinado objetivo (Resposta correta)</alternativa>
                 <alternativa correta="nao" >  É a solução de um problema </alternativa>
+                <alternativa correta="nao" > chile </alternativa>
+                <alternativa correta="nao" > equador </alternativa>
             </alternativas>
             
         </questão>
@@ -40,6 +41,7 @@
                 <alternativa correta="sim" > Unir dados de modo lógico ou manter ligação ou conexão entre eles (Resposta correta) </alternativa>
                 <alternativa correta="sim" > é utilizada para agrupar células e informações </alternativa>
                 <alternativa correta="nao" > china </alternativa>
+                <alternativa correta="nao" > Maneira rigorosa de raciocinar </alternativa>
             </alternativas>
             
         </questão>
@@ -50,6 +52,8 @@
             <alternativas>
                 <alternativa correta="sim" > Estrutura de repetição que realiza um teste lógico no final da estrutura, executando ao menos uma vez o conjunto de instruções antes de verificar a condição testada </alternativa>
                 <alternativa correta="nao" > Caso o resultado seja falso, o programa encerra essa estrutura e volta para o fluxo do programa </alternativa>
+                <alternativa correta="nao" > chile </alternativa>
+                <alternativa correta="nao" > equador </alternativa>
             </alternativas>
             
         </questão>
@@ -60,6 +64,8 @@
             <alternativas>
                 <alternativa correta="sim" > Uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa a quem o escreve, de forma a ser entendida por qualquer pessoa) sem necessidade de conhecer a sintaxe de uma linguagem de programação específica </alternativa>
                 <alternativa correta="nao" > Maneira rigorosa de raciocinar </alternativa>
+                <alternativa correta="nao" > chile </alternativa>
+                <alternativa correta="nao" > equador </alternativa>
             </alternativas>
             
         </questão>
