@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE quiz [
-<!ELEMENT quiz (disciplina, professor, turma, data, questões)>
-    <!ATTLIST quiz versao CDATA #REQUIRED>
-    <!ELEMENT disciplina (#PCDATA)>
-    <!ELEMENT professor (nome, matrícula?)>
-        <!ELEMENT nome (#PCDATA)>
-        <!ELEMENT matrícula (#PCDATA)>
-    <!ELEMENT turma (#PCDATA)>
-    <!ELEMENT data (#PCDATA)>
-    <!ELEMENT questões (questão+)>
-        <!ELEMENT questão (enunciado, pontuação, alternativas)>
-            <!ELEMENT enunciado (#PCDATA)>
-            <!ELEMENT pontuação (#PCDATA)>
-            <!ELEMENT alternativas (alternativa+)>
-                <!ELEMENT alternativa (#PCDATA)>
-                    <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
-]>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
 
 <quiz versao="3">
-    <disciplina>por</disciplina>
+    <disciplina>programacao</disciplina>
     <professor>
-        <nome>louco</nome>
+        <nome>diego</nome>
         <matrícula>666666</matrícula>
     </professor>
-    <turma>oi</turma>
-    <data>7 de julho</data>
+    <turma>info4m</turma>
+    <data>18 de julho</data>
     <questões>
         <questão>
-            <enunciado> oi</enunciado>
+            <enunciado> qual o país que nasceu a programação? </enunciado>
             <pontuação> 33 </pontuação>
             <alternativas>
-                <alternativa correta="sim" > roma </alternativa>
+                <alternativa correta="sim" > Alemanha </alternativa>
                 <alternativa correta="nao" > siberia </alternativa>
                 <alternativa correta="nao" > chile </alternativa>
                 <alternativa correta="nao" > equador </alternativa>
@@ -40,40 +24,42 @@
         </questão>
 
         <questão>
-            <enunciado> qual o certo</enunciado>
+            <enunciado>Qual é a definição de algoritmo?</enunciado>
             <pontuação> 90 </pontuação>
             <alternativas>
-                <alternativa correta="sim" > a </alternativa>
-                <alternativa correta="nao" > b </alternativa>
+                <alternativa correta="sim" > Trata-se de uma sequência de passos, conhecida como um conjunto de instruções para se chegar a um determinado objetivo (Resposta correta)</alternativa>
+                <alternativa correta="nao" >  É a solução de um problema </alternativa>
             </alternativas>
             
         </questão>
 
         <questão>
-            <enunciado> qual a rua</enunciado>
+            <enunciado> O que significa concatenar</enunciado>
             <pontuação> 20 </pontuação>
             <alternativas>
-                <alternativa correta="sim" > buzios </alternativa>
-                <alternativa correta="sim" > ponta negra </alternativa>
+                <alternativa correta="sim" > Unir dados de modo lógico ou manter ligação ou conexão entre eles (Resposta correta) </alternativa>
+                <alternativa correta="sim" > é utilizada para agrupar células e informações </alternativa>
                 <alternativa correta="nao" > china </alternativa>
             </alternativas>
             
         </questão>
 
         <questão>
-            <enunciado> qual o nome</enunciado>
+            <enunciado> Marque a opção correta que define a estrutura de repetição PARA - ATE (Em inglês, “For”)</enunciado>
             <pontuação>55</pontuação>
             <alternativas>
-                <alternativa correta="sim" > roma </alternativa>
+                <alternativa correta="sim" > Estrutura de repetição que realiza um teste lógico no final da estrutura, executando ao menos uma vez o conjunto de instruções antes de verificar a condição testada </alternativa>
+                <alternativa correta="nao" > Caso o resultado seja falso, o programa encerra essa estrutura e volta para o fluxo do programa </alternativa>
             </alternativas>
             
         </questão>
 
         <questão>
-            <enunciado> oi</enunciado>
+            <enunciado> O que é Pseudocódigo?</enunciado>
             <pontuação> 33 </pontuação>
             <alternativas>
-                <alternativa correta="sim" > roma </alternativa>
+                <alternativa correta="sim" > Uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa a quem o escreve, de forma a ser entendida por qualquer pessoa) sem necessidade de conhecer a sintaxe de uma linguagem de programação específica </alternativa>
+                <alternativa correta="nao" > Maneira rigorosa de raciocinar </alternativa>
             </alternativas>
             
         </questão>
