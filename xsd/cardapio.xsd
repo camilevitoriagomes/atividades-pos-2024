@@ -1,0 +1,21 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:c="http://cardapiohamburgueria.org"
+        targetNamespace="http://cardapiohamburgueria.org"
+        elementFormDefault="qualified">
+
+        <element name="cardapio">
+            <complexType>
+                <sequence>
+                    <element name="prato">
+                        <simpleType>
+                            <restriction base="string">
+                            <maxLength value="100"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                    
+                </sequence>
+            </complexType>
+        </element>
+
+</schema>

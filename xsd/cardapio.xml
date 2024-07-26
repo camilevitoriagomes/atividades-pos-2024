@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cardapio xmlns="http://cardapiohamburgueria.org" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://cardapiohamburgueria.org cardapio.xsd"
+>
+    <prato id="c01" >
+    
+        <nome>X-Burger</nome>
+        <descricao>esse você come e quer outro</descricao>
+        <ingredientes>
+            <ingrediente>Pão de hambúrguer</ingrediente>
+            <ingrediente>hambúrguer</ingrediente>
+            <ingrediente>queijo</ingrediente> 
+        </ingredientes>
+
+        
+        <preco moeda="USD">&dolar; 11.5</preco>
+        <calorias>330 cal</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+
+    </prato>
+
+    <prato id="c2" >
+    
+        <nome>x-salada</nome>
+        <descricao>so pros fitnes</descricao>
+        <ingredientes>
+            <ingrediente>Pão de hambúrguer</ingrediente>
+            <ingrediente>hambúrguer</ingrediente>
+            <ingrediente>queijo</ingrediente> 
+            <ingrediente>milho</ingrediente>
+            <ingrediente>alface</ingrediente> 
+            <ingrediente>maionese</ingrediente> 
+            <ingrediente>tomate</ingrediente>  
+        </ingredientes>
+        <preco moeda="BRL"> &reais;  12.7</preco>
+        <calorias>50 cal</calorias>
+        <tempoPreparo>20 min</tempoPreparo>
+
+    </prato>
+
+    <prato id="c3" >
+    
+        <nome>X-bacon</nome>
+        <descricao>esse tem bacon</descricao>
+        <ingredientes>
+            <ingrediente>Pão de hambúrguer</ingrediente>
+            <ingrediente>hambúrguer</ingrediente>
+            <ingrediente>queijo</ingrediente> 
+            <ingrediente>bacon</ingrediente>
+            <ingrediente>alface</ingrediente> 
+            <ingrediente>maionese</ingrediente> 
+            <ingrediente>tomate</ingrediente>  
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 13.0</preco>
+        <calorias>500 cal</calorias>
+        <tempoPreparo>35 min</tempoPreparo>
+
+    </prato>
+
+    <prato id="c4" >
+    
+        <nome>X-egg</nome>
+        <descricao> esse é a mesma coisa do x-bacon, so trocou o bacon por ovo</descricao>
+        <ingredientes>
+            <ingrediente>Pão de hambúrguer</ingrediente>
+            <ingrediente>hambúrguer</ingrediente>
+            <ingrediente>queijo</ingrediente> 
+            <ingrediente>ovo</ingrediente>
+            <ingrediente>alface</ingrediente> 
+            <ingrediente>maionese</ingrediente> 
+            <ingrediente>tomate</ingrediente>  
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 12.7</preco>
+        <calorias>450 cal</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+
+    </prato>
+
+    <prato id="c5" >
+    
+        <nome>X-tudo</nome>
+        <descricao>esse você come e fica de buxo cheio</descricao>
+        <ingredientes>
+            <ingrediente>Pão de hambúrguer</ingrediente>
+            <ingrediente>hambúrguer</ingrediente>
+            <ingrediente>frango empanado</ingrediente>
+            <ingrediente>salsicha</ingrediente>
+            <ingrediente>catupiry</ingrediente>
+            <ingrediente>cheddar</ingrediente>
+            <ingrediente>queijo</ingrediente> 
+            <ingrediente>queijo coalho</ingrediente>
+            <ingrediente>ovo</ingrediente>
+            <ingrediente>alface</ingrediente> 
+            <ingrediente>maionese</ingrediente> 
+            <ingrediente>tomate</ingrediente>  
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 15.7</preco>
+        <calorias>740 cal</calorias>
+        <tempoPreparo>40 min</tempoPreparo>
+
+    </prato>
+    
+</cardapio>
