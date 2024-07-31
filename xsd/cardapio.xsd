@@ -6,14 +6,40 @@
         <element name="cardapio">
             <complexType>
                 <sequence>
-                    <element name="prato">
-                        <simpleType>
-                            <restriction base="string">
-                            <maxLength value="100"/>
-                            </restriction>
-                        </simpleType>
+                    <element name="prato" minOccurs="1" maxOccurs="unbounded">
+                        <complexType>
+                            <sequence>
+                                <element name="nome" type="string"/>
+
+                                <element name="descricao" type="string"/>
+                                <element name="ingredientes">
+                                    <complexType>
+                                        <sequence>
+                                            <element name="ingrediente" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                                        </sequence>
+                                    </complexType>
+                                </element>
+
+                                <element name="preco">
+                                    <complexType>
+                                        <sequence>
+                                            <restriction base="decimal">
+                                                <fractionDigits value="2"/>
+                                            </restriction>
+                                        </sequence>
+                                        <attribute name="moeda" type="trind" />
+                                     </complexType>
+                                </element>
+
+                                <element name="calorias" type="integer"/>
+
+                                <element name="tempoPreparo" type="string"/>
+
+                                
+                            </sequence>
+                            <attribute name="id" type="integer" />
+                        </complexType>
                     </element>
-                    
                 </sequence>
             </complexType>
         </element>
