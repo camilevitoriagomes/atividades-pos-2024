@@ -15,8 +15,8 @@
         </ingredientes>
 
         
-        <preco moeda="USD"> 11.5</preco>
-        <calorias>330 cal</calorias>
+        <preco moeda="USD">11</preco>
+        <calorias>330</calorias>
         <tempoPreparo>30 min</tempoPreparo>
 
     </prato>
@@ -34,8 +34,8 @@
             <ingrediente>maionese</ingrediente> 
             <ingrediente>tomate</ingrediente>  
         </ingredientes>
-        <preco moeda="BRL"> &reais;  12.7</preco>
-        <calorias>50 cal</calorias>
+        <preco moeda="BRL">12</preco>
+        <calorias>50</calorias>
         <tempoPreparo>20 min</tempoPreparo>
 
     </prato>
@@ -53,8 +53,8 @@
             <ingrediente>maionese</ingrediente> 
             <ingrediente>tomate</ingrediente>  
         </ingredientes>
-        <preco moeda="BRL"> &reais; 13.0</preco>
-        <calorias>500 cal</calorias>
+        <preco moeda="BRL">13</preco>
+        <calorias>500</calorias>
         <tempoPreparo>35 min</tempoPreparo>
 
     </prato>
@@ -72,8 +72,8 @@
             <ingrediente>maionese</ingrediente> 
             <ingrediente>tomate</ingrediente>  
         </ingredientes>
-        <preco moeda="BRL"> &reais; 12.7</preco>
-        <calorias>450 cal</calorias>
+        <preco moeda="BRL">12</preco>
+        <calorias>450</calorias>
         <tempoPreparo>30 min</tempoPreparo>
 
     </prato>
@@ -96,8 +96,8 @@
             <ingrediente>maionese</ingrediente> 
             <ingrediente>tomate</ingrediente>  
         </ingredientes>
-        <preco moeda="BRL"> &reais; 15.7</preco>
-        <calorias>740 cal</calorias>
+        <preco moeda="BRL">15</preco>
+        <calorias>740</calorias>
         <tempoPreparo>40 min</tempoPreparo>
 
     </prato>

@@ -22,13 +22,12 @@
 
                                 <element name="preco">
                                     <complexType>
-                                        <sequence>
-                                            <restriction base="decimal">
-                                                <fractionDigits value="2"/>
-                                            </restriction>
-                                        </sequence>
-                                        <attribute name="moeda" type="trind" />
-                                     </complexType>
+                                        <simpleContent>
+                                            <extension base="decimal">
+                                                <attribute name="moeda" type="c:moedaTipo" default="BRL"/>
+                                            </extension>
+                                        </simpleContent>
+                                    </complexType>
                                 </element>
 
                                 <element name="calorias" type="integer"/>
@@ -43,5 +42,12 @@
                 </sequence>
             </complexType>
         </element>
+
+        <simpleType name="moedaTipo">
+            <restriction base="string">
+                <enumeration value="BRL"/>
+                <enumeration value="USD"/>
+            </restriction>
+        </simpleType>
 
 </schema>
