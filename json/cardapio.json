@@ -1,0 +1,108 @@
+{
+    "cardapio": {
+      "pratos": [
+        {
+          "id": "c01",
+          "nome": "X-Burger",
+          "descricao": "esse você come e quer outro",
+          "ingredientes": [
+            "Pão de hambúrguer",
+            "hambúrguer",
+            "queijo"
+          ],
+          "preco": {
+            "moeda": "USD",
+            "valor": "$ 11.5"
+          },
+          "calorias": "330 cal",
+          "tempoPreparo": "30 min"
+        },
+        {
+          "id": "c2",
+          "nome": "x-salada",
+          "descricao": "so pros fitnes",
+          "ingredientes": [
+            "Pão de hambúrguer",
+            "hambúrguer",
+            "queijo",
+            "milho",
+            "alface",
+            "maionese",
+            "tomate"
+          ],
+          "preco": {
+            "moeda": "BRL",
+            "valor": "R$ 12.7"
+          },
+          "calorias": "50 cal",
+          "tempoPreparo": "20 min"
+        },
+        {
+          "id": "c3",
+          "nome": "X-bacon",
+          "descricao": "esse tem bacon",
+          "ingredientes": [
+            "Pão de hambúrguer",
+            "hambúrguer",
+            "queijo",
+            "bacon",
+            "alface",
+            "maionese",
+            "tomate"
+          ],
+          "preco": {
+            "moeda": "BRL",
+            "valor": "R$ 13.0"
+          },
+          "calorias": "500 cal",
+          "tempoPreparo": "35 min"
+        },
+        {
+          "id": "c4",
+          "nome": "X-egg",
+          "descricao": "esse é a mesma coisa do x-bacon, só trocou o bacon por ovo",
+          "ingredientes": [
+            "Pão de hambúrguer",
+            "hambúrguer",
+            "queijo",
+            "ovo",
+            "alface",
+            "maionese",
+            "tomate"
+          ],
+          "preco": {
+            "moeda": "BRL",
+            "valor": "R$ 12.7"
+          },
+          "calorias": "450 cal",
+          "tempoPreparo": "30 min"
+        },
+        {
+          "id": "c5",
+          "nome": "X-tudo",
+          "descricao": "esse você come e fica de buxo cheio",
+          "ingredientes": [
+            "Pão de hambúrguer",
+            "hambúrguer",
+            "frango empanado",
+            "salsicha",
+            "catupiry",
+            "cheddar",
+            "queijo",
+            "queijo coalho",
+            "ovo",
+            "alface",
+            "maionese",
+            "tomate"
+          ],
+          "preco": {
+            "moeda": "BRL",
+            "valor": "R$ 15.7"
+          },
+          "calorias": "740 cal",
+          "tempoPreparo": "40 min"
+        }
+      ]
+    }
+  }
+  

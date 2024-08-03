@@ -1,0 +1,125 @@
+{
+    "quiz": {
+      "versao": 3,
+      "disciplina": "programacao",
+      "professor": {
+        "nome": "diego",
+        "matricula": "666666"
+      },
+      "turma": "info4m",
+      "data": "18 de julho",
+      "questoes": [
+        {
+          "enunciado": "qual o país que nasceu a programação?",
+          "pontuacao": 33,
+          "alternativas": [
+            {
+              "correta": true,
+              "texto": "Alemanha"
+            },
+            {
+              "correta": false,
+              "texto": "siberia"
+            },
+            {
+              "correta": false,
+              "texto": "chile"
+            },
+            {
+              "correta": false,
+              "texto": "equador"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é a definição de algoritmo?",
+          "pontuacao": 90,
+          "alternativas": [
+            {
+              "correta": true,
+              "texto": "Trata-se de uma sequência de passos, conhecida como um conjunto de instruções para se chegar a um determinado objetivo (Resposta correta)"
+            },
+            {
+              "correta": false,
+              "texto": "É a solução de um problema"
+            },
+            {
+              "correta": false,
+              "texto": "chile"
+            },
+            {
+              "correta": false,
+              "texto": "equador"
+            }
+          ]
+        },
+        {
+          "enunciado": "O que significa concatenar",
+          "pontuacao": 20,
+          "alternativas": [
+            {
+              "correta": true,
+              "texto": "Unir dados de modo lógico ou manter ligação ou conexão entre eles (Resposta correta)"
+            },
+            {
+              "correta": true,
+              "texto": "é utilizada para agrupar células e informações"
+            },
+            {
+              "correta": false,
+              "texto": "china"
+            },
+            {
+              "correta": false,
+              "texto": "Maneira rigorosa de raciocinar"
+            }
+          ]
+        },
+        {
+          "enunciado": "Marque a opção correta que define a estrutura de repetição PARA - ATE (Em inglês, “For”)",
+          "pontuacao": 55,
+          "alternativas": [
+            {
+              "correta": true,
+              "texto": "Estrutura de repetição que realiza um teste lógico no final da estrutura, executando ao menos uma vez o conjunto de instruções antes de verificar a condição testada"
+            },
+            {
+              "correta": false,
+              "texto": "Caso o resultado seja falso, o programa encerra essa estrutura e volta para o fluxo do programa"
+            },
+            {
+              "correta": false,
+              "texto": "chile"
+            },
+            {
+              "correta": false,
+              "texto": "equador"
+            }
+          ]
+        },
+        {
+          "enunciado": "O que é Pseudocódigo?",
+          "pontuacao": 33,
+          "alternativas": [
+            {
+              "correta": true,
+              "texto": "Uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa a quem o escreve, de forma a ser entendida por qualquer pessoa) sem necessidade de conhecer a sintaxe de uma linguagem de programação específica"
+            },
+            {
+              "correta": false,
+              "texto": "Maneira rigorosa de raciocinar"
+            },
+            {
+              "correta": false,
+              "texto": "chile"
+            },
+            {
+              "correta": false,
+              "texto": "equador"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
