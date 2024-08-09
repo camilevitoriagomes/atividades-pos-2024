@@ -1,0 +1,116 @@
+[
+  {
+    "descricao": "alugar e vender",
+    "proprietario": {
+      "nome": "jose",
+      "emails": [
+        "camile@gota"
+      ],
+      "telefones": [
+        "9999999",
+        "9999999"
+      ]
+    },
+    "endereco": {
+      "rua": "maria de pontes",
+      "bairro": "centro",
+      "cidade": "bom jesus",
+      "numero": null
+    },
+    "caracteristicas": {
+      "tamanho": "300m",
+      "num_quartos": "4",
+      "num_banheiros": "6"
+    },
+    "valor": "200000"
+  },
+  {
+    "descricao": "casa para vender",
+    "proprietario": {
+      "nome": "rita",
+      "emails": [],
+      "telefones": [
+        "999449999"
+      ]
+    },
+    "endereco": {
+      "rua": "jose de pontes",
+      "bairro": "caixa dagoa",
+      "cidade": "bom jesus",
+      "numero": "09"
+    },
+    "caracteristicas": {
+      "tamanho": "700m",
+      "num_quartos": "9",
+      "num_banheiros": "20"
+    },
+    "valor": "600000"
+  },
+  {
+    "descricao": "casa para vender",
+    "proprietario": {
+      "nome": "rita",
+      "emails": [],
+      "telefones": [
+        "999449999"
+      ]
+    },
+    "endereco": {
+      "rua": "jose de pontes",
+      "bairro": "caixa dagoa",
+      "cidade": "bom jesus",
+      "numero": "09"
+    },
+    "caracteristicas": {
+      "tamanho": "700m",
+      "num_quartos": "9",
+      "num_banheiros": "20"
+    },
+    "valor": "600000"
+  },
+  {
+    "descricao": "casa para vender",
+    "proprietario": {
+      "nome": "rita",
+      "emails": [
+        "camile@",
+        "camile@"
+      ],
+      "telefones": []
+    },
+    "endereco": {
+      "rua": "jose de pontes",
+      "bairro": "caixa dagoa",
+      "cidade": "bom jesus",
+      "numero": "09"
+    },
+    "caracteristicas": {
+      "tamanho": "700m",
+      "num_quartos": "9",
+      "num_banheiros": "20"
+    },
+    "valor": "600000"
+  },
+  {
+    "descricao": "casa",
+    "proprietario": {
+      "nome": "luiza",
+      "emails": [],
+      "telefones": [
+        "999449999"
+      ]
+    },
+    "endereco": {
+      "rua": "jose de pontes",
+      "bairro": "caixa dagoa",
+      "cidade": "bom jesus",
+      "numero": "09"
+    },
+    "caracteristicas": {
+      "tamanho": "700m",
+      "num_quartos": "9",
+      "num_banheiros": "20"
+    },
+    "valor": "600000"
+  }
+]
