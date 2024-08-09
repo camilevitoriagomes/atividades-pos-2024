@@ -2,7 +2,7 @@ from xml.dom.minidom import parse
 import json
 
 
-dom = parse("json/imobiliaria.xml")
+dom = parse("xml\imobiliaria.xml")
 
 
 imobiliaria = dom.documentElement
