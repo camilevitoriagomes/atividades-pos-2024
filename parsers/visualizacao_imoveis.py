@@ -25,7 +25,7 @@ def exibir_detalhes(imovel):
 
 
 while True:
-        print("\nMenu de Imóveis")
+        print("Menu de Imóveis")
         print("Escolha um imóvel para ver detalhes:")
         
 
