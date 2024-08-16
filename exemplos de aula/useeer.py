@@ -23,6 +23,7 @@ elif opcao == "3":
     print("digite 3 para atualizar os dados de um usuario")
     print("digite 4 para remover  usuario")
     user_option = input("digite")
+    
     if user_option == "1":
         user_data={}
         user_data["name"] = input("digite o nome do usuario ")
