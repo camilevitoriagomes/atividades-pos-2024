@@ -4,7 +4,7 @@ while True:
     print("Menu de Opções:")
     print("1. Listar todos os usuários")
     print("2. Ler um usuário específico")
-    print("3. Criar/Atualizar/Deletar usuários ")
+    print("3. Criar/Atualizar/Deletar usuários")
     print("6. Sair")
 
     opcao = input("Digite sua escolha: ")
@@ -18,9 +18,12 @@ while True:
         user_id = input("Digite o ID do usuário: ")
         user = users.read(user_id)
         if user:
-            print(user)
+            print(f'''
+                    {user['id']} - {user['name']} 
+                    {user['username']}, {user['email']}
+                ''')
         else:
-            print("Usuario não encontrado")
+            print("Usuário não encontrado")
 
     elif opcao == "3":
         print("1. Criar um novo usuário")
@@ -34,7 +37,7 @@ while True:
             user_data["username"] = input("Digite o username do usuário: ")
             user_data["email"] = input("Digite o email do usuário: ")
             user_address = {}
-            user_address["street"] = input("Digite o endereço de usuário: ")
+            user_address["street"] = input("Digite o endereço do usuário: ")
             user_address["city"] = input("Digite a cidade do usuário: ")
             user_data["address"] = user_address
             users.create(user_data)
@@ -55,11 +58,9 @@ while True:
         else:
             print("Opção inválida.")
 
-
     elif opcao == "6":
         print("Tchau")
         break
         
-
     else:
         print("Opção inválida, tente novamente.")

@@ -2,19 +2,18 @@ import requests
 
 api_url = "https://jsonplaceholder.typicode.com/users"
 
-
 def list():
-       return requests.get(api_url+"/users").json()
+    return requests.get(api_url).json()
    
 def read(user_id):
-    response = requests.get(api_url+"/users"+user_id)
-    if requests.status_codes == 200:
+    response = requests.get(f"{api_url}/{user_id}")
+    if response.status_code == 200:
         return response.json()
     else:
-        return False
+        return None
    
 def delete(user_id):
-    response = requests.delete(api_url+"/users"+user_id)
+    response = requests.delete(f"{api_url}/{user_id}")
     if response.status_code == 200:
         return True
     else:
