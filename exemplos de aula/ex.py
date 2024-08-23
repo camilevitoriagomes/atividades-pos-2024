@@ -2,7 +2,6 @@ import requests
 from requests.auth import HTTPBasicAuth
 from getpass import getpass
 user = input("user: ")
-password = "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"
 
 user = input("digite o loguin do usuario para conhecer seus seguidores: ")
 
